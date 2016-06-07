@@ -14,6 +14,10 @@
 		C66BB8231D05BF2800093FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66BB8211D05BF2800093FB2 /* LaunchScreen.storyboard */; };
 		C66BB82E1D05BF2800093FB2 /* brbrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66BB82D1D05BF2800093FB2 /* brbrTests.swift */; };
 		C66BB8391D05BF2800093FB2 /* brbrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66BB8381D05BF2800093FB2 /* brbrUITests.swift */; };
+		C66BB84E1D05C20200093FB2 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C66BB84C1D05C20200093FB2 /* bar.png */; };
+		C66BB84F1D05C20200093FB2 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = C66BB84D1D05C20200093FB2 /* tail.png */; };
+		C66BB8511D06596B00093FB2 /* GmaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66BB8501D06596B00093FB2 /* GmaeViewController.swift */; };
+		C66BB8531D06598600093FB2 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66BB8521D06598600093FB2 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C66BB8341D05BF2800093FB2 /* brbrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brbrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66BB8381D05BF2800093FB2 /* brbrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brbrUITests.swift; sourceTree = "<group>"; };
 		C66BB83A1D05BF2800093FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66BB84C1D05C20200093FB2 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		C66BB84D1D05C20200093FB2 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		C66BB8501D06596B00093FB2 /* GmaeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GmaeViewController.swift; sourceTree = "<group>"; };
+		C66BB8521D06598600093FB2 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		C66BB80C1D05BF2800093FB2 = {
 			isa = PBXGroup;
 			children = (
+				C66BB8521D06598600093FB2 /* RankingViewController.swift */,
+				C66BB8501D06596B00093FB2 /* GmaeViewController.swift */,
 				C66BB8171D05BF2800093FB2 /* brbr */,
 				C66BB82C1D05BF2800093FB2 /* brbrTests */,
 				C66BB8371D05BF2800093FB2 /* brbrUITests */,
@@ -97,6 +107,7 @@
 		C66BB8171D05BF2800093FB2 /* brbr */ = {
 			isa = PBXGroup;
 			children = (
+				C66BB84B1D05C20200093FB2 /* Barabara素材 */,
 				C66BB8181D05BF2800093FB2 /* AppDelegate.swift */,
 				C66BB81A1D05BF2800093FB2 /* ViewController.swift */,
 				C66BB81C1D05BF2800093FB2 /* Main.storyboard */,
@@ -123,6 +134,15 @@
 				C66BB83A1D05BF2800093FB2 /* Info.plist */,
 			);
 			path = brbrUITests;
+			sourceTree = "<group>";
+		};
+		C66BB84B1D05C20200093FB2 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				C66BB84C1D05C20200093FB2 /* bar.png */,
+				C66BB84D1D05C20200093FB2 /* tail.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C66BB8231D05BF2800093FB2 /* LaunchScreen.storyboard in Resources */,
+				C66BB84F1D05C20200093FB2 /* tail.png in Resources */,
 				C66BB8201D05BF2800093FB2 /* Assets.xcassets in Resources */,
 				C66BB81E1D05BF2800093FB2 /* Main.storyboard in Resources */,
+				C66BB84E1D05C20200093FB2 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66BB8511D06596B00093FB2 /* GmaeViewController.swift in Sources */,
 				C66BB81B1D05BF2800093FB2 /* ViewController.swift in Sources */,
 				C66BB8191D05BF2800093FB2 /* AppDelegate.swift in Sources */,
+				C66BB8531D06598600093FB2 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
